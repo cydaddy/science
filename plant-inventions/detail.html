@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>식물의 특징 알아보기</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="detail-container">
+            <a href="index.html" class="back-btn">⬅ 목록으로 돌아가기</a>
+            
+            <div class="detail-header">
+                <h1 id="plant-name">식물 이름</h1>
+                <div class="feature-tag" id="plant-feature">식물의 특징</div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-box">
+                    <h3 class="img-title">🌿 식물의 모습</h3>
+                    <div class="img-placeholder-large" id="plant-image">
+                        식물 사진을 넣어주세요
+                    </div>
+                </div>
+                <div class="image-box">
+                    <h3 class="img-title">💡 생활 속 발명품</h3>
+                    <div class="img-placeholder-large" id="usage-image">
+                        활용 물건 사진을 넣어주세요
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-section">
+                <h2>📖 읽을거리</h2>
+                <p>
+                    <strong>이용: <span id="plant-usage" style="color: #FFB74D;"></span></strong><br><br>
+                    <span id="plant-story"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/detail.js"></script>
+</body>
+</html>
