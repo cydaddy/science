@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="사마귀의 한살이 - 알(알집), 애벌레(어린 사마귀), 다 자란 사마귀의 3단계 불완전탈바꿈">
+  <title>사마귀의 한살이 - 3학년 과학</title>
+  <link rel="stylesheet" href="../styles/sub.css">
+  <style>
+    :root {
+      --theme-color: #2E7D32;
+      --theme-bg: #E8F5E9;
+      --theme-light: #A5D6A7;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="sub-header">
+    <nav class="sub-header__nav">
+      <a href="../index.html" class="back-button" id="btn-back">
+        <span class="back-button__icon">←</span>
+        목록으로 돌아가기
+      </a>
+    </nav>
+    <svg class="sub-header__icon" viewBox="0 0 24 24">
+      <path d="M12,8 L10.5,19 L13.5,19 Z" fill="#4CAF50"/>
+      <polygon points="12,4.5 9,8 15,8" fill="#4CAF50"/>
+      <circle cx="10" cy="6.8" r="1" fill="#2E7D32"/>
+      <circle cx="14" cy="6.8" r="1" fill="#2E7D32"/>
+      <line x1="11" y1="4.5" x2="8.5" y2="2" stroke="#4CAF50" stroke-width="1" stroke-linecap="round"/>
+      <line x1="13" y1="4.5" x2="15.5" y2="2" stroke="#4CAF50" stroke-width="1" stroke-linecap="round"/>
+      <path d="M10,8 L6.5,10.5 L7,13.5" fill="none" stroke="#388E3C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M14,8 L17.5,10.5 L17,13.5" fill="none" stroke="#388E3C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M11,14 L8,18.5 L9,22.5" fill="none" stroke="#2E7D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M13,14 L16,18.5 L15,22.5" fill="none" stroke="#2E7D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <h1 class="sub-header__title">사마귀의 한살이</h1>
+    <span class="sub-header__badge">
+      <svg class="sub-header__badge-icon" viewBox="0 0 24 24"><path d="M16 12c0 3.31-2.69 6-6 6S4 15.31 4 12s2.69-6 6-6 6 2.69 6 6zm-6-4v8" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+      불완전탈바꿈 곤충
+    </span>
+  </header>
+
+  <main class="timeline">
+
+    <!-- 1단계: 알(알집) -->
+    <article class="stage" id="stage-1">
+      <div class="stage__number">1</div>
+      <div class="stage__card">
+        <div class="stage__image-container" id="img-container-1">
+          <img src="../images/mantis/stage1.webp" alt="사마귀 알집" class="stage__image"
+               onerror="this.parentElement.classList.remove('has-image');"
+               onload="this.parentElement.classList.add('has-image');">
+          <div class="stage__placeholder">
+            <svg class="stage__placeholder-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+            <span class="stage__placeholder-text">그림을 넣어주세요</span>
+          </div>
+        </div>
+        <div class="stage__content">
+          <h2 class="stage__title">
+            <span class="stage__title-label">1단계</span>
+            알 (알집)
+          </h2>
+          <p class="stage__description">
+            거품 같은 집 속에 알들이 모여 있어요.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <div class="stage-arrow">
+      <svg class="stage-arrow__icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+    </div>
+
+    <!-- 2단계: 애벌레(어린 사마귀) -->
+    <article class="stage" id="stage-2">
+      <div class="stage__number">2</div>
+      <div class="stage__card">
+        <div class="stage__image-container" id="img-container-2">
+          <img src="../images/mantis/stage2.jpg" alt="어린 사마귀" class="stage__image"
+               onerror="this.parentElement.classList.remove('has-image');"
+               onload="this.parentElement.classList.add('has-image');">
+          <div class="stage__placeholder">
+            <svg class="stage__placeholder-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+            <span class="stage__placeholder-text">그림을 넣어주세요</span>
+          </div>
+        </div>
+        <div class="stage__content">
+          <h2 class="stage__title">
+            <span class="stage__title-label">2단계</span>
+            애벌레 (어린 사마귀)
+          </h2>
+          <p class="stage__description">
+            날개는 없지만 어른 사마귀와 똑같이 생겼어요.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <div class="stage-arrow">
+      <svg class="stage-arrow__icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+    </div>
+
+    <!-- 3단계: 다 자란 사마귀 -->
+    <article class="stage" id="stage-3">
+      <div class="stage__number">3</div>
+      <div class="stage__card">
+        <div class="stage__image-container" id="img-container-3">
+          <img src="../images/mantis/stage3.jpg" alt="다 자란 사마귀" class="stage__image"
+               onerror="this.parentElement.classList.remove('has-image');"
+               onload="this.parentElement.classList.add('has-image');">
+          <div class="stage__placeholder">
+            <svg class="stage__placeholder-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+            <span class="stage__placeholder-text">그림을 넣어주세요</span>
+          </div>
+        </div>
+        <div class="stage__content">
+          <h2 class="stage__title">
+            <span class="stage__title-label">3단계</span>
+            다 자란 사마귀
+          </h2>
+          <p class="stage__description">
+            허물을 다 벗고 멋진 날개가 돋아나요.
+          </p>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <section class="tip-section">
+    <div class="tip-card">
+      <svg class="tip-card__icon" viewBox="0 0 24 24"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1c-.3.2-.5.5-.5.85V16h-3.7v-2.05c0-.35-.2-.65-.5-.85C8.89 12.24 8 10.7 8 9c0-2.2 1.8-4 4-4s4 1.8 4 4c0 1.7-.89 3.24-2.15 4.1z"/></svg>
+      <div class="tip-card__content">
+        <p class="tip-card__label">아이들을 위한 팁</p>
+        <p class="tip-card__text">
+          나비와 달리 '번데기' 단계가 없어서, 아기 때부터 엄지손가락 같은 앞다리를 가지고 있어요!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="bottom-nav">
+    <a href="../index.html" class="back-button" id="btn-back-bottom">
+      <span class="back-button__icon">←</span>
+      목록으로 돌아가기
+    </a>
+  </div>
+
+  <footer class="sub-footer">
+    <p>동물의 한살이 조사 · 3학년 과학</p>
+  </footer>
+
+</body>
+</html>

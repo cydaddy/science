@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="장수거북의 한살이 - 알, 새끼 거북, 다 자란 거북의 3단계">
+  <title>장수거북의 한살이 - 3학년 과학</title>
+  <link rel="stylesheet" href="../styles/sub.css">
+  <style>
+    :root {
+      --theme-color: #6D4C41;
+      --theme-bg: #EFEBE9;
+      --theme-light: #D7CCC8;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="sub-header">
+    <nav class="sub-header__nav">
+      <a href="../index.html" class="back-button" id="btn-back">
+        <span class="back-button__icon">←</span>
+        목록으로 돌아가기
+      </a>
+    </nav>
+    <svg class="sub-header__icon" viewBox="0 0 24 24">
+      <ellipse cx="12" cy="13" rx="6" ry="7" fill="#558B2F"/>
+      <ellipse cx="12" cy="13" rx="4" ry="5" fill="#689F38"/>
+      <path d="M12,6 C11,6,10.5,4,12,3 s3,2,2,3 C13.5,6,13,6,12,6 z" fill="#33691E"/>
+      <path d="M9,9 C6,8,3.5,10,4,12.5 C4.5,14.5,7,12,9,11" fill="#33691E"/>
+      <path d="M15,9 C18,8,20.5,10,20,12.5 C19.5,14.5,17,12,15,11" fill="#33691E"/>
+      <path d="M8.5,18 C7,19,6.5,21,7.5,21.5 C8.5,21.5,9,20,9.5,19" fill="#33691E"/>
+      <path d="M15.5,18 C17,19,17.5,21,16.5,21.5 C15.5,21.5,15,20,14.5,19" fill="#33691E"/>
+      <polygon points="12,20 11,22 13,22" fill="#33691E"/>
+    </svg>
+    <h1 class="sub-header__title">장수거북의 한살이</h1>
+    <span class="sub-header__badge">
+      <svg class="sub-header__badge-icon" viewBox="0 0 24 24"><path d="M12 2L4 5v6c0 5.5 3.5 10.6 8 12 4.5-1.4 8-6.5 8-12V5l-8-3z"/></svg>
+      파충류
+    </span>
+  </header>
+
+  <main class="timeline">
+
+    <!-- 1단계: 알 -->
+    <article class="stage" id="stage-1">
+      <div class="stage__number">1</div>
+      <div class="stage__card">
+        <div class="stage__image-container" id="img-container-1">
+          <img src="../images/turtle/stage1.jpg" alt="장수거북 알" class="stage__image"
+               onerror="this.parentElement.classList.remove('has-image');"
+               onload="this.parentElement.classList.add('has-image');">
+          <div class="stage__placeholder">
+            <svg class="stage__placeholder-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+            <span class="stage__placeholder-text">그림을 넣어주세요</span>
+          </div>
+        </div>
+        <div class="stage__content">
+          <h2 class="stage__title">
+            <span class="stage__title-label">1단계</span>
+            알
+          </h2>
+          <p class="stage__description">
+            모래사장 구덩이 속에 닭알처럼 생긴 알을 낳아요.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <div class="stage-arrow">
+      <svg class="stage-arrow__icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+    </div>
+
+    <!-- 2단계: 새끼 거북 -->
+    <article class="stage" id="stage-2">
+      <div class="stage__number">2</div>
+      <div class="stage__card">
+        <div class="stage__image-container" id="img-container-2">
+          <img src="../images/turtle/stage2.jpg" alt="새끼 거북" class="stage__image"
+               onerror="this.parentElement.classList.remove('has-image');"
+               onload="this.parentElement.classList.add('has-image');">
+          <div class="stage__placeholder">
+            <svg class="stage__placeholder-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+            <span class="stage__placeholder-text">그림을 넣어주세요</span>
+          </div>
+        </div>
+        <div class="stage__content">
+          <h2 class="stage__title">
+            <span class="stage__title-label">2단계</span>
+            새끼 거북
+          </h2>
+          <p class="stage__description">
+            알에서 깨어나자마자 엉금엉금 바다를 향해 기어가요.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <div class="stage-arrow">
+      <svg class="stage-arrow__icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+    </div>
+
+    <!-- 3단계: 다 자란 거북 -->
+    <article class="stage" id="stage-3">
+      <div class="stage__number">3</div>
+      <div class="stage__card">
+        <div class="stage__image-container" id="img-container-3">
+          <img src="../images/turtle/stage3.jpg" alt="다 자란 장수거북" class="stage__image"
+               onerror="this.parentElement.classList.remove('has-image');"
+               onload="this.parentElement.classList.add('has-image');">
+          <div class="stage__placeholder">
+            <svg class="stage__placeholder-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+            <span class="stage__placeholder-text">그림을 넣어주세요</span>
+          </div>
+        </div>
+        <div class="stage__content">
+          <h2 class="stage__title">
+            <span class="stage__title-label">3단계</span>
+            다 자란 거북
+          </h2>
+          <p class="stage__description">
+            바다를 헤엄치며 엄청나게 크게 자라나요.
+          </p>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <section class="tip-section">
+    <div class="tip-card">
+      <svg class="tip-card__icon" viewBox="0 0 24 24"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1c-.3.2-.5.5-.5.85V16h-3.7v-2.05c0-.35-.2-.65-.5-.85C8.89 12.24 8 10.7 8 9c0-2.2 1.8-4 4-4s4 1.8 4 4c0 1.7-.89 3.24-2.15 4.1z"/></svg>
+      <div class="tip-card__content">
+        <p class="tip-card__label">아이들을 위한 팁</p>
+        <p class="tip-card__text">
+          닭처럼 알을 낳지만, 부모가 돌봐주지 않고 스스로 바다로 가야 해요!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="bottom-nav">
+    <a href="../index.html" class="back-button" id="btn-back-bottom">
+      <span class="back-button__icon">←</span>
+      목록으로 돌아가기
+    </a>
+  </div>
+
+  <footer class="sub-footer">
+    <p>동물의 한살이 조사 · 3학년 과학</p>
+  </footer>
+
+</body>
+</html>

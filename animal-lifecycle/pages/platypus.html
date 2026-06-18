@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="오리너구리의 한살이 - 알, 새끼, 다 자란 오리너구리의 3단계. 알을 낳는 신기한 포유류">
+  <title>오리너구리의 한살이 - 3학년 과학</title>
+  <link rel="stylesheet" href="../styles/sub.css">
+  <style>
+    :root {
+      --theme-color: #FB8C00;
+      --theme-bg: #FFF3E0;
+      --theme-light: #FFE0B2;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="sub-header">
+    <nav class="sub-header__nav">
+      <a href="../index.html" class="back-button" id="btn-back">
+        <span class="back-button__icon">←</span>
+        목록으로 돌아가기
+      </a>
+    </nav>
+    <svg class="sub-header__icon" viewBox="0 0 24 24">
+      <path d="M3,13.5 C1.5,12.5,1,11,2.5,9.5 L7.5,11.5 L7.5,13.5 Z" fill="#5D4037"/>
+      <path d="M10,14.5 L9.5,17.5 L11,17.5" fill="#3E2723" stroke="#3E2723" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M15.5,14.5 L15,17.5 L16.5,17.5" fill="#3E2723" stroke="#3E2723" stroke-width="1.5" stroke-linecap="round"/>
+      <ellipse cx="12.5" cy="12.5" rx="6.5" ry="4" fill="#8D6E63"/>
+      <path d="M19,10.5 C20.8,10.5,22,11.2,22,12.2 C22,13.2,20.8,13.5,19,13.5 L17.5,12 C17.5,12,18,10.5,19,10.5 Z" fill="#37474F"/>
+      <circle cx="16.5" cy="11" r="3" fill="#8D6E63"/>
+      <circle cx="17.2" cy="10.2" r="0.8" fill="#212121"/>
+    </svg>
+    <h1 class="sub-header__title">오리너구리의 한살이</h1>
+    <span class="sub-header__badge">
+      <svg class="sub-header__badge-icon" viewBox="0 0 24 24"><path d="M12 14c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm-4.5 0c-1.1 0-2-.9-2-2s0.9-2 2-2 2 .9 2 2-.9 2-2 2zm9 0c-1.1 0-2-.9-2-2s0.9-2 2-2 2 .9 2 2-.9 2-2 2zM6 8.5c0-.83.67-1.5 1.5-1.5S9 7.67 9 8.5 8.33 10 7.5 10 6 9.33 6 8.5zm12 0c0-.83-.67-1.5-1.5-1.5S15 7.67 15 8.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5z"/></svg>
+      알 낳는 포유류
+    </span>
+  </header>
+
+  <main class="timeline">
+
+    <!-- 1단계: 알 -->
+    <article class="stage" id="stage-1">
+      <div class="stage__number">1</div>
+      <div class="stage__card">
+        <div class="stage__image-container" id="img-container-1">
+          <img src="../images/platypus/stage1.jpg" alt="오리너구리 알" class="stage__image"
+               onerror="this.parentElement.classList.remove('has-image');"
+               onload="this.parentElement.classList.add('has-image');">
+          <div class="stage__placeholder">
+            <svg class="stage__placeholder-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+            <span class="stage__placeholder-text">그림을 넣어주세요</span>
+          </div>
+        </div>
+        <div class="stage__content">
+          <h2 class="stage__title">
+            <span class="stage__title-label">1단계</span>
+            알
+          </h2>
+          <p class="stage__description">
+            엄마 오리너구리가 둥지 속에서 알을 낳아 품어요.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <div class="stage-arrow">
+      <svg class="stage-arrow__icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+    </div>
+
+    <!-- 2단계: 새끼 오리너구리 -->
+    <article class="stage" id="stage-2">
+      <div class="stage__number">2</div>
+      <div class="stage__card">
+        <div class="stage__image-container" id="img-container-2">
+          <img src="../images/platypus/stage2.jpg" alt="새끼 오리너구리" class="stage__image"
+               onerror="this.parentElement.classList.remove('has-image');"
+               onload="this.parentElement.classList.add('has-image');">
+          <div class="stage__placeholder">
+            <svg class="stage__placeholder-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+            <span class="stage__placeholder-text">그림을 넣어주세요</span>
+          </div>
+        </div>
+        <div class="stage__content">
+          <h2 class="stage__title">
+            <span class="stage__title-label">2단계</span>
+            새끼 오리너구리
+          </h2>
+          <p class="stage__description">
+            알에서 깨어난 뒤, 엄마 배에서 나오는 젖을 먹고 자라요.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <div class="stage-arrow">
+      <svg class="stage-arrow__icon" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+    </div>
+
+    <!-- 3단계: 다 자란 오리너구리 -->
+    <article class="stage" id="stage-3">
+      <div class="stage__number">3</div>
+      <div class="stage__card">
+        <div class="stage__image-container" id="img-container-3">
+          <img src="../images/platypus/stage3.jpg" alt="다 자란 오리너구리" class="stage__image"
+               onerror="this.parentElement.classList.remove('has-image');"
+               onload="this.parentElement.classList.add('has-image');">
+          <div class="stage__placeholder">
+            <svg class="stage__placeholder-icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+            <span class="stage__placeholder-text">그림을 넣어주세요</span>
+          </div>
+        </div>
+        <div class="stage__content">
+          <h2 class="stage__title">
+            <span class="stage__title-label">3단계</span>
+            다 자란 오리너구리
+          </h2>
+          <p class="stage__description">
+            오리 같은 부리와 너구리 같은 꼬리를 가지고 물속을 헤엄쳐요.
+          </p>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <section class="tip-section">
+    <div class="tip-card">
+      <svg class="tip-card__icon" viewBox="0 0 24 24"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1c-.3.2-.5.5-.5.85V16h-3.7v-2.05c0-.35-.2-.65-.5-.85C8.89 12.24 8 10.7 8 9c0-2.2 1.8-4 4-4s4 1.8 4 4c0 1.7-.89 3.24-2.15 4.1z"/></svg>
+      <div class="tip-card__content">
+        <p class="tip-card__label">아이들을 위한 팁</p>
+        <p class="tip-card__text">
+          새(조류)처럼 알을 낳지만, 개나 고양이처럼 엄마 젖을 먹고 자라는 아주 신기한 동물이에요!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="bottom-nav">
+    <a href="../index.html" class="back-button" id="btn-back-bottom">
+      <span class="back-button__icon">←</span>
+      목록으로 돌아가기
+    </a>
+  </div>
+
+  <footer class="sub-footer">
+    <p>동물의 한살이 조사 · 3학년 과학</p>
+  </footer>
+
+</body>
+</html>

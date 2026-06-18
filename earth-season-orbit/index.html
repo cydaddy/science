@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>지구의 계절과 별자리</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%2355c6ff'/%3E%3Cpath d='M12 30c8-8 18-9 25-5 8 5 10 14 3 24-12 1-23-6-28-19Z' fill='%237ee081'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="viewer" aria-label="지구가 태양 주위를 공전하는 3D 모형">
+        <canvas id="spaceScene"></canvas>
+        <div class="hud">
+          <div class="title-block">
+            <p>3D 과학 모형</p>
+            <h1>지구의 공전과 계절</h1>
+          </div>
+          <div class="season-panel">
+            <div class="segmented" role="tablist" aria-label="계절 선택">
+              <button class="season-tab active" type="button" role="tab" aria-selected="true" data-season="spring">봄</button>
+              <button class="season-tab" type="button" role="tab" aria-selected="false" data-season="summer">여름</button>
+              <button class="season-tab" type="button" role="tab" aria-selected="false" data-season="autumn">가을</button>
+              <button class="season-tab" type="button" role="tab" aria-selected="false" data-season="winter">겨울</button>
+            </div>
+            <button id="constellationButton" class="info-button" type="button">별자리 보기</button>
+          </div>
+          <div class="fact-strip" aria-live="polite">
+            <span id="seasonName">봄</span>
+            <span id="seasonFact">북반구가 태양을 향하기 시작하며 낮이 점점 길어져요.</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="modalBackdrop" class="modal-backdrop" hidden>
+      <dialog id="constellationModal" class="constellation-modal" aria-labelledby="modalTitle">
+        <button id="closeModal" class="icon-button" type="button" aria-label="닫기">×</button>
+        <div class="modal-copy">
+          <p id="modalSeason">봄철 별자리</p>
+          <h2 id="modalTitle">사자자리</h2>
+          <p id="modalDescription"></p>
+        </div>
+        <div id="constellationArt" class="constellation-art" aria-hidden="true"></div>
+      </dialog>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
